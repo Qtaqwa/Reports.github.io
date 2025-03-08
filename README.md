@@ -12,7 +12,7 @@
 <script>
   // Fetch CSV data from GitHub raw link
   async function fetchData() {
-    const csvUrl = 'YOUR_CSV_RAW_LINK';
+    const csvUrl = https://github.com/Qtaqwa/Reports.github.io/blob/main/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D9%84%D9%84%D8%AD%D8%AC%D8%A7%D8%AC.csv);
     const response = await fetch(csvUrl);
     const csvText = await response.text();
     const rows = csvText.split('\n').map(row => row.split(','));
